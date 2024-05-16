@@ -17,6 +17,27 @@ add json
     ]
 }
 
+# RDS Logs
+
+## IAM Policies and Roles Setup
+
+### Step 1: Create an IAM Policy named `rds-policy`
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "rds:DescribeDBInstances",
+                "rds:ModifyDBInstance",
+                "rds:RebootDBInstance"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+
 # Step 2: Create an IAM Role named rds-lambda
 1. Selecting Lambda and attaching policies:
 * AWSLambdaBasicExecutionRole
