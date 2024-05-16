@@ -33,7 +33,7 @@ add json
 now logs will be visible in loggroup with this name(/aws/rds/instance/database-1/postgresql) 
 
 # Connection-Status-Loaction
-![Connection-Status-Loaction](https://github.com/Prashanth5996/RDS-logs/assets/94959676/2c58fda7-33c6-4587-a9d0-32c0009966f9)
+![Connection-Status-Loaction](https://github.com/Prashanth5996/RDS-logs/assets/94959676/23ec3fc9-6475-4624-b530-f85a6a18bb1c)
 
 # Select-Query
 ![Select-Query](https://github.com/Prashanth5996/RDS-logs/assets/94959676/48090d66-f080-4ec4-9055-286c73801998)
