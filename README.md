@@ -21,20 +21,20 @@
 ```
 
 ### Step 2: Create an IAM Role named `rds-lambda`
-1. Selecting Lambda and attaching policies:
-* AWSLambdaBasicExecutionRole
-* AmazonRDSFullAccess
-2. Adding the `rds-policy` to the role.
+##### 1. Selecting Lambda and attaching policies:
+##### * AWSLambdaBasicExecutionRole
+##### * AmazonRDSFullAccess
+##### 2. Adding the `rds-policy` to the role.
 
 ### Step 3: AWS Lambda Functions
 ## Lambda Function 1: `create-parameter-group.py`
-   This Creates and modifies an RDS parameter group enable logs init and Apply the changes.
+##### This Creates and modifies an RDS parameter group enable logs init and Apply the changes.
 
 ## Lambda Function 2: `rds-modify-parameter-group.py`
-   This Lambda function attaches the parameter group to an RDS instance and reboots the instance.
+##### This Lambda function attaches the parameter group to an RDS instance and reboots the instance.
 
 ## Result
-now logs will be visible in loggroup with this name `(/aws/rds/instance/database-1/postgresql)` 
+##### now logs will be visible in loggroup with this name `(/aws/rds/instance/database-1/postgresql)` 
 
 ## Connections
 ![Connection-Status-Loaction](https://github.com/Prashanth5996/RDS-logs/assets/94959676/23ec3fc9-6475-4624-b530-f85a6a18bb1c)
