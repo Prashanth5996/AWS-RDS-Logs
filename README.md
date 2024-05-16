@@ -30,9 +30,9 @@ add json
    This Lambda function attaches the parameter group to an RDS instance and reboots the instance.
 
 # Result
-now logs will be visible in loggroup with this name(/aws/rds/instance/database-1/postgresql) 
+now logs will be visible in loggroup with this name (/aws/rds/instance/database-1/postgresql) 
 
-# Connection-Status-Loaction
+# Connections
 ![Connection-Status-Loaction](https://github.com/Prashanth5996/RDS-logs/assets/94959676/23ec3fc9-6475-4624-b530-f85a6a18bb1c)
 
 # Select-Query
