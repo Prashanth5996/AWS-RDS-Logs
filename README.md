@@ -22,8 +22,8 @@
 
 ## Step 2: Create an IAM Role named `rds-lambda`
 ##### 1. Selecting Lambda and attaching policies:
-- AWSLambdaBasicExecutionRole
-- AmazonRDSFullAccess
+- `AWSLambdaBasicExecutionRole`
+- `AmazonRDSFullAccess`
 ##### 2. Adding the `rds-policy` to the role.
 
 ## Step 3: AWS Lambda Functions
