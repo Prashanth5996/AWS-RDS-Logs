@@ -37,6 +37,7 @@ add json
         }
     ]
 }
+```
 
 # Step 2: Create an IAM Role named rds-lambda
 1. Selecting Lambda and attaching policies:
