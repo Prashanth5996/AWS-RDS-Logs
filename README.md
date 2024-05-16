@@ -1,7 +1,7 @@
 # RDS-logs
 
 # Step 1: Create an IAM Policy named rds-policy
-1. add json
+# 1. add json
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -29,5 +29,5 @@
 # Lambda Function 2: rds-modify-parameter-group.py
    This Lambda function attaches the parameter group to an RDS instance and reboots the instance.
 
-3.now logs will be visible in loggroup with this name(/aws/rds/instance/database-1/postgresql) 
+# 3.now logs will be visible in loggroup with this name(/aws/rds/instance/database-1/postgresql) 
 
