@@ -1,3 +1,11 @@
+# Creates and modifies an RDS parameter group.
+# Enables logs initialization.
+# Applies changes.
+# Parameters:
+# Parameter group name: my-db-postres
+# Database engine: PostgreSQL version 16
+# Enables required logs
+
 import json
 import boto3
 
