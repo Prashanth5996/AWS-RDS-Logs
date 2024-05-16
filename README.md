@@ -16,29 +16,20 @@ add json
         }
     ]
 }
-## IAM Policy
-
-```json
-{
-    // This IAM policy allows specific actions on RDS instances.
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            // Allows describing RDS instances.
-            "Action": [
-                "rds:DescribeDBInstances",
-                // Allows modifying RDS instances.
-                "rds:ModifyDBInstance",
-                // Allows rebooting RDS instances.
-                "rds:RebootDBInstance"
-            ],
-            // Applies to all RDS instances.
-            "Resource": "*"
-        }
-    ]
-}
-
+# {
+#     "Version": "2012-10-17",
+#     "Statement": [
+#         {
+#             "Effect": "Allow",
+#             "Action": [
+#                 "rds:DescribeDBInstances",
+#                 "rds:ModifyDBInstance",
+#                 "rds:RebootDBInstance"
+#             ],
+#             "Resource": "*"
+#         }
+#     ]
+# }
 # Step 2: Create an IAM Role named rds-lambda
 1. Selecting Lambda and attaching policies:
 * AWSLambdaBasicExecutionRole
