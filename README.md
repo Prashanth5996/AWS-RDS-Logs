@@ -32,3 +32,4 @@ add json
 # Result
 now logs will be visible in loggroup with this name(/aws/rds/instance/database-1/postgresql) 
 
+![Disconnections](https://github.com/Prashanth5996/RDS-logs/assets/94959676/8718e64a-0c11-4249-b0ad-6f5dca0784b7)
