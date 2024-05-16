@@ -1,3 +1,10 @@
+# Attaches the parameter group to an RDS instance.
+# Reboots the instance.
+# Parameters:
+# Instance name: database-1
+# Parameter group name: my-db-postres
+# After modifying the parameter group, it reboots the RDS instance.
+
 import boto3
 
 def modify_parameter_group_and_instance():
