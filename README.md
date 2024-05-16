@@ -2,7 +2,7 @@
 
 ## IAM Policies and Roles Setup
 
-### Step 1: Create an IAM Policy named `rds-policy`
+## Step 1: Create an IAM Policy named `rds-policy`
 ```json
 {
     "Version": "2012-10-17",
@@ -20,17 +20,17 @@
 }
 ```
 
-### Step 2: Create an IAM Role named `rds-lambda`
+## Step 2: Create an IAM Role named `rds-lambda`
 ##### 1. Selecting Lambda and attaching policies:
 - AWSLambdaBasicExecutionRole
 - AmazonRDSFullAccess
 ##### 2. Adding the `rds-policy` to the role.
 
-### Step 3: AWS Lambda Functions
-## Lambda Function 1: `create-parameter-group.py`
+## Step 3: AWS Lambda Functions
+### Lambda Function 1: `create-parameter-group.py`
 ##### This Creates and modifies an RDS parameter group enable logs init and Apply the changes.
 
-## Lambda Function 2: `rds-modify-parameter-group.py`
+### Lambda Function 2: `rds-modify-parameter-group.py`
 ##### This Lambda function attaches the parameter group to an RDS instance and reboots the instance.
 
 ## Result
