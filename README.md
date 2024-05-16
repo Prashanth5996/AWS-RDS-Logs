@@ -16,22 +16,6 @@ add json
         }
     ]
 }
-// {
-//     "Version": "2012-10-17",
-//     "Statement": [
-//         {
-//             "Effect": "Allow",
-//             "Action": [
-//                 "rds:DescribeDBInstances",
-//                 "rds:ModifyDBInstance",
-//                 "rds:RebootDBInstance"
-//             ],
-//             "Resource": "*"
-//         }
-//     ]
-// }
-
-
 
 # Step 2: Create an IAM Role named rds-lambda
 1. Selecting Lambda and attaching policies:
